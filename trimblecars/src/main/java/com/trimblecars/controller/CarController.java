@@ -26,6 +26,8 @@ public class CarController {
         return carService.getAllCars();
     }
 
+
+
     @GetMapping("/owner/{ownerId}")
     public List<Car> getByOwner(@PathVariable Long ownerId)
     {

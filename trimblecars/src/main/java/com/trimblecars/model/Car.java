@@ -11,9 +11,9 @@ public class Car {
     private String model;
     private String registrationNo;
 
-
     @Enumerated(EnumType.STRING)
     private CarStatus status;
+
 
 
     @ManyToOne
